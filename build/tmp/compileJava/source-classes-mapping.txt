@@ -1,0 +1,4 @@
+io/github/kydzombie/simpleshears/mixins/SheepShearsFix.java
+ io.github.kydzombie.simpleshears.mixins.SheepShearsFix
+io/github/kydzombie/simpleshears/SimpleShears.java
+ io.github.kydzombie.simpleshears.SimpleShears

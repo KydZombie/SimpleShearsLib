@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "io/github/kydzombie/simpleshears/mixins/SheepShearsFix": {
+      "interactMob": "Lnet/minecraft/class_1472;method_5992(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "io/github/kydzombie/simpleshears/mixins/SheepShearsFix": {
+        "interactMob": "Lnet/minecraft/class_1472;method_5992(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+      }
+    }
+  }
+}
