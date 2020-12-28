@@ -1,9 +1,15 @@
-# Fabric Example Mod
+# SimpleSearsLib
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Add the JitPack repository:
+```
+repositories {
+	maven {
+		name = "JitPack"
+		url = "https://jitpack.io"
+	}
+}
+```
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Add `modImplementation include("com.github.KydZombie:SimpleShears-API:1.0.0")` to the end of your dependencies
