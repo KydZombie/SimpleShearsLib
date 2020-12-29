@@ -12,4 +12,4 @@ repositories {
 }
 ```
 
-Add `modImplementation include("com.github.KydZombie:SimpleShears-API:1.0.0")` to the end of your dependencies
+Add `modImplementation include("com.github.KydZombie:SimpleShears-API:1.0.1")` to the end of your dependencies. Replace `1.0.1` with whatever the latest version is.
