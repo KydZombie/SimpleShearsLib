@@ -14,8 +14,11 @@ import net.minecraft.world.World;
 public class ShearsBase extends ShearsItem {
 
     public ShearsBase(int durability) {
-
         super(new Settings().maxDamage(durability).group(ItemGroup.TOOLS));
+    }
+    
+    public ShearsBase(int durability, ItemGroup group) {
+        super(new Settings().maxDamage(durability).group(group));
     }
 
     public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
